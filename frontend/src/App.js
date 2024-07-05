@@ -47,6 +47,8 @@ function App() {
       };
       const body = {
         prompt: prompt,
+        filters = "contains(path, `issb-2023`)",
+        response_type= "long"
       };
       console.log('Request Headers:', headers);
       console.log('Request Body:', body);
