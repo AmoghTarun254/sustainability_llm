@@ -128,4 +128,4 @@ npm start
 ```
 A basic chatbot interface should be served at port 3000. You can enter sustainability-centric prompts in the chatbox for which, the server at port 3000 communicates with the backend server at port 8000 via a REST API call and displays an answer.
 
-**ADVISORY:** Please note that the docker container with the image previously created needs to be running in order for the frontend server to relay user input to the LLM(In this case, GPT-3.5-turbo-0125).
+**ADVISORY:** Please note that the docker container with the image previously created needs to be running in order for the frontend server to relay user input to the LLM (in this case, GPT-3.5-turbo-0125).
