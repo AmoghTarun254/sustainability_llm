@@ -87,6 +87,10 @@ Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Hea
 
 ```
 
+PS: IFRS S1 provides a set of overarching disclosure requirements designed to enable companies to communicate to investors about the sustainability-related risks and opportunities they face over the short, medium and long term.
+
+The model should respond with `Professional accountants and auditors.`
+
 
 
 
