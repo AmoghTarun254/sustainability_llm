@@ -108,6 +108,7 @@ $body = @{
 Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Headers $headers -Body $body
 
 ```
-
+The model should repond with `The intended audience for the information disclosed under IFRS S1 is primarily accounting professionals, financial analysts, investors, and other 
+stakeholders interested in understanding the accounting standards and requirements related to agriculture.`
 
 
