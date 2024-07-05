@@ -112,7 +112,9 @@ stakeholders interested in understanding the accounting standards and requiremen
 
 ### Running the Frontend
 
-Ensure you have [Node.js](https://nodejs.org/en/download/package-manager) installed on your local machine
+Ensure you have [Node.js](https://nodejs.org/en/download/package-manager) installed on your local machine.
+
+Open a new terminal and enter the following commands.
 
 ```bash
 #Install Create-React-App Tool
