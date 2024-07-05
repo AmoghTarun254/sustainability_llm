@@ -113,4 +113,17 @@ stakeholders interested in understanding the accounting standards and requiremen
 
 ### Running the Frontend
 
+Ensure you have [Node.js](https://nodejs.org/en/download/package-manager) installed on your local machine
+
+```bash
+#Install Create-React-App Tool
+npm install -g create-react-app
+
+#Navigate to the frontend folder
+cd frontend
+
+#Start the frontend server at default port 3000
+npm start
+```
+
 
