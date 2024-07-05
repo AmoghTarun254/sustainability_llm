@@ -75,7 +75,7 @@ function App() {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${api_key}`,
       };
-      const combinedPrompt = `Hey, you are a ClimeUp LLM, ClimeUp LLM is a sustainability-specific AI. The user's question is "${userPrompt}" and the information we have is "${llmAnswer}". Please rewrite and make the answer more comprehensive. If no information is available, then generate a response.`;
+      const combinedPrompt = `Hey, you are a Sustainability LLM that specializes in sustainability-specific prompts. The user's question is "${userPrompt}" and the information we have is "${llmAnswer}". Please rewrite and make the answer more comprehensive. If no information is available, then generate a response.`;
 
       const openaiBody = {
         model: fine_tuned_model_id,
