@@ -125,5 +125,5 @@ cd frontend
 #Start the frontend server at default port 3000
 npm start
 ```
-
+A basic chatbot interface should be served at port 3000. You can enter sustainability-centric prompts for which the interface at port 3000 communicates with the backend at port 8000 via a REST API call and displays an answer.
 
