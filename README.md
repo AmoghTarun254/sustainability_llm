@@ -68,6 +68,25 @@ docker run -v "${PWD}/data:/app/data" -p 8000:8000 rag
 ```
 Make sure that you have atleast 8 GB of free space before building the Docker image.
 
+#### Asking questions to LLM
+
+Open a new terminal and run the following command.
+
+```bash
+$headers = @{
+    'accept' = '*/*'
+    'Content-Type' = 'application/json'
+}
+
+$body = @{
+    prompt = "What is the intended audience for the information disclosed under IFRS S1?"
+    filters = "contains(path, `issb-2023`)"
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Headers $headers -Body $body
+
+```
+
 
 
 
