@@ -20,7 +20,6 @@ This implementation could help enterprises in managing their sustainability init
 - [Pipeline Organization](#Pipeline-Organization)
 - [Tech Stack involved in this project](#Tech-Stack-involved-in-this-project-and-how-it-works)
 - [How to run the project](#How-to-run-the-project)
-- [Using the app](#Query-the-documents)
 
 ## Pipeline Organization
 This folder contains several objects:
