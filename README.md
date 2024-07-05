@@ -102,7 +102,7 @@ $headers = @{
 $body = @{
     prompt = "What is the intended audience for the information disclosed under IFRS S1?"
     filters = "contains(path, `issb-2023`)"
-    response_type= "long"
+    response_type = "long"
 } | ConvertTo-Json
 
 Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Headers $headers -Body $body
@@ -110,5 +110,7 @@ Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Hea
 ```
 The model should repond with `The intended audience for the information disclosed under IFRS S1 is primarily accounting professionals, financial analysts, investors, and other 
 stakeholders interested in understanding the accounting standards and requirements related to agriculture.`
+
+### Running the Frontend
 
 
