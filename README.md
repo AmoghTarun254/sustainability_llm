@@ -16,4 +16,19 @@ This chatbot can be used to teach enthusiasts about the tenets of sustainability
 
 This implementation could help enterprises in managing their sustainability initiatives, investments, and impacts in a streamlined manner. 
 
+# Table of content
+- [Tech Stack involved in this project](#Tech-Stack-involved-in-this-project-and-how-it-works)
+- [How it works](#How-it-works)
+- [Configuring the app](#Configuration)
+- [How to run the project](#How-to-run-the-project)
+- [Using the app](#Query-the-documents)
+
+## Tech Stack involved in this project and how it works
+
+The backend comprises a RAG pipeline from PathwayLLM, specifically, their [demo-question-answering pipeline](https://github.com/pathwaycom/llm-app/tree/main/examples/pipelines/demo-question-answering). The data folder has been loaded with six comprehensive PDFs on sustainability measures and reporting frameworks in the context of climate, finance, etc. The corresponding chunk embeddings from the PDFs are loaded into an in-memory vector store, courtesy of Pathway's RAG pipeline.
+The backend hosts a server at port **8000** on your local machine.
+
+The frontend comprises React.js which hosts a server at port **3000** on your local machine. The frontend communicates to the backend via an API call and procures vector embeddings relevant to the user's query. The vector embeddings are then sent to a GPT-3.5-turbo-0125 model that has been fine-tuned on multiple files on sustainainability comprising 1224 prompt-completion pairs and 290000 tokens. This model receives the relevant embeddings from the RAG pipeline and uses them as context to generate an answer which is then relayed to the user. Vanta.js has also been used to make the user-interface aesthetically pleasing. 
+
+
 
