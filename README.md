@@ -56,10 +56,10 @@ Ensure that you have Docker Desktop installed on your device and set up with val
 
 In order to let the pipeline get updated with each change in local files, you need to mount the folder onto the docker. The following commands show how to do that.
 
-##### Make sure you are in the right directory.
+#### Make sure you are in the right directory.
 cd examples/pipelines/demo-question-answering
 
-##### Build the image in this folder
+#### Build the image in this folder
 docker build -t rag .
 
 
