@@ -120,6 +120,9 @@ Open a new terminal and enter the following commands.
 #Install Create-React-App Tool
 npm install -g create-react-app
 
+#Install three and vanta
+npm install three vanta
+
 #Navigate to the frontend folder
 cd frontend
 
