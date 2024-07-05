@@ -40,7 +40,7 @@ The frontend comprises React.js which hosts a server at port **3000** on your lo
 
 ## How to run the project
 
-### Backend
+### Running the Backend
 
 #### OpenAI API Key Configuration
 
@@ -57,16 +57,16 @@ Ensure that you have Docker Desktop installed on your device and set up with val
 In order to let the pipeline get updated with each change in local files, you need to mount the folder onto the docker. The following commands show how to do that.
 
 ```bash
-#### Make sure you are in the right directory.
+# Make sure you are in the right directory.
 cd demo-question-answering
 
-#### Build the image in this folder
+# Build the image in this folder
 docker build -t rag .
 
-#### Run the image, mount the `data` folder into image and expose the port `8000`
-docker run -v `pwd`/data:/app/data -p 8000:8000 qa
+# Run the image, mount the `data` folder into image and expose the port `8000`
+docker run -v "${PWD}/data:/app/data" -p 8000:8000 rag
 ```
-
+Make sure that you have atleast 8 GB of free space before building the Docker image.
 
 
 
