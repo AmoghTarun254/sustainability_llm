@@ -91,6 +91,23 @@ Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Hea
 
 The model should respond with `Professional accountants and auditors.`
 
+If you want a more comprehensive answer, run the following command instead.
+
+```bash
+$headers = @{
+    'accept' = '*/*'
+    'Content-Type' = 'application/json'
+}
+
+$body = @{
+    prompt = "What is the intended audience for the information disclosed under IFRS S1?"
+    filters = "contains(path, `issb-2023`)"
+    response_type= "long"
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://localhost:8000/v1/pw_ai_answer" -Method Post -Headers $headers -Body $body
+
+```
 
 
 
