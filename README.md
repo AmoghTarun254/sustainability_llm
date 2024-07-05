@@ -120,11 +120,14 @@ Open a new terminal and enter the following commands.
 #Install Create-React-App Tool
 npm install -g create-react-app
 
+#Navigate to the frontend folder
+cd frontend
+
 #Install three and vanta
 npm install three vanta
 
-#Navigate to the frontend folder
-cd frontend
+#Install axios library
+npm i axios
 
 #Start the frontend server at default port 3000
 npm start
