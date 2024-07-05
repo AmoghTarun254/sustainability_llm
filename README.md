@@ -10,3 +10,10 @@ Sustainability frameworks are structured approaches and sets of guidelines desig
 
 **ISO 14001**: An international standard for environmental management systems. It provides a framework for organizations to manage their environmental responsibilities systematically and improve their environmental performance.
 
+# Need for this model and use-cases
+
+This chatbot can be used to teach enthusiasts about the tenets of sustainability and sustainable technologies.
+
+This implementation could help enterprises in managing their sustainability initiatives, investments, and impacts in a streamlined manner. 
+
+
