@@ -136,4 +136,4 @@ A basic chatbot interface should be served at port 3000. You can enter sustainab
 
 - Please note that the docker container with the image previously created needs to be running in order for the frontend server to relay user input to the LLM (in this case,   GPT-3.5-turbo-0125). This can be verified through Docker Desktop.
 
-- [App.js](frontend/App.js) requires a valid `fine_tuned_model_id`, which can be procured from [OpenAI Playground](https://platform.openai.com/playground) on [fine-tuning](https://platform.openai.com/docs/guides/fine-tuning) GPT-3.5-turbo-0125 on a custom JSONL file.
+- [App.js](frontend/src/App.js) requires a valid `fine_tuned_model_id`, which can be procured from [OpenAI Playground](https://platform.openai.com/playground) on [fine-tuning](https://platform.openai.com/docs/guides/fine-tuning) GPT-3.5-turbo-0125 on a custom JSONL file.
