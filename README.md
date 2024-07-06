@@ -141,6 +141,6 @@ A basic chatbot interface should be served at port 3000. You can enter sustainab
 
 ## Demo video
 
-This is a demo of the frontend of the application hosted at port 3000, complete with chatbot capabilities. The chatbot can answer specific questions related to the files porvided in the `data` folder or questions pertaining to sustainability in general.
+This is a demo of the frontend of the application hosted at port 3000, complete with chatbot capabilities. The chatbot can answer specific questions related to the files provided in the `data` folder or questions pertaining to sustainability in general.
 
 https://github.com/AmoghTarun254/sustainability_llm/assets/119509669/a10b2c59-b509-4e23-a742-814ea23dd26d
