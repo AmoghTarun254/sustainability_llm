@@ -22,13 +22,11 @@ This implementation could help enterprises in managing their sustainability init
 - [How to run the project](#How-to-run-the-project)
 
 ## Pipeline Organization
-This folder contains several objects:
-- `app.py`, the application code using Pathway and written in Python;
-- `config.yaml`, the file containing configuration stubs for the data sources, the OpenAI LLM model, and the web server.
-- `requirements.txt`, the dependencies for the pipeline.
-- `Dockerfile`, the Docker configuration for running the pipeline in the container;
-- `.env`, a short environment variables configuration file where the OpenAI key must be stored;
-- `data/`, a folder with relevant files on sustainability.
+This repository contains two main folders:
+
+-`demo-question-answering` : Borrowed from PathwayLLM, and contains the requisite files for running  a backend server on port 8000.
+
+-`frontend` : A folder containing React.js files to serve the frontend of the application at port 3000 via.
 
 ## Tech Stack involved in this project and how it works
 
