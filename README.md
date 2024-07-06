@@ -24,9 +24,9 @@ This implementation could help enterprises in managing their sustainability init
 ## Pipeline Organization
 This repository contains two main folders:
 
--`demo-question-answering` : Borrowed from PathwayLLM, and contains the requisite files for running  a backend server on port 8000.
+- `demo-question-answering` : Borrowed from PathwayLLM, and contains the requisite files for running  a backend server on port 8000.
 
--`frontend` : A folder containing React.js files to serve the frontend of the application at port 3000 via.
+- `frontend` : A folder containing React.js files to serve the frontend of the application at port 3000 via.
 
 ## Tech Stack involved in this project and how it works
 
