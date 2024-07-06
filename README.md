@@ -17,7 +17,7 @@ This chatbot can be used to teach enthusiasts about the tenets of sustainability
 This implementation could help enterprises in managing their sustainability initiatives, investments, and impacts in a streamlined manner. 
 
 # Table of content
-- [Pipeline Organization](#Pipeline-Organization)
+- [Repository Organization](#Repository-Organization)
 - [Tech Stack involved in this project](#Tech-Stack-involved-in-this-project-and-how-it-works)
 - [How to run the project](#How-to-run-the-project)
 - [Demo video](#Demo-video)
@@ -140,5 +140,7 @@ A basic chatbot interface should be served at port 3000. You can enter sustainab
 - [App.js](frontend/src/App.js) requires a valid `fine_tuned_model_id`, which can be procured from [OpenAI Playground](https://platform.openai.com/playground) on [fine-tuning](https://platform.openai.com/docs/guides/fine-tuning) GPT-3.5-turbo-0125 on a custom JSONL file.
 
 ## Demo video
+
+This is a demo of the frontend of the application hosted at port 3000, complete with chatbot capabilities. The chatbot can answer specific questions related to the files porvided in the `data` folder or questions pertaining to sustainability in general.
 
 https://github.com/AmoghTarun254/sustainability_llm/assets/119509669/a10b2c59-b509-4e23-a742-814ea23dd26d
