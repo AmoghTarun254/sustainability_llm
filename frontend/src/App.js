@@ -100,7 +100,6 @@ function App() {
   return (
     <div>
       <div id="vanta-bg" ref={vantaRef}></div>
-      <div class="logo"></div>
       <div className="chatbot-container">
         <div className="chatbot-body">
           <div className="response-box">
